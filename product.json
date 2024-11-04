@@ -1,0 +1,65 @@
+{
+  
+  "product":[{
+    
+    "name": "Rose",
+    "description": "Their stems are usually prickly and their glossy, green leaves have toothed edges",
+    "image": "Rose.jpg",
+    "price": "₱1000"
+    },
+  {
+    "name": "Sunflower",
+    "description": "The common sunflower has a green erect stem covered in coarse hairs, growing on average around 2m tall.",
+    "image": "Sunflower.jpg",
+    "price": "₱2,500"
+    },
+  {
+    "name": "Tulips",
+    "description": "Tulips are erect flowers with long, broad, parallel-veined leaves and a cup-shaped, single or double flower at the tip of the stem.",
+    "image": "Tulips.jpg",
+    "price": "₱9,159"
+    },
+  {
+    "name": "Gumamela",
+    "description": "Gumamela is an erect, much-branched, glabrous shrub, 1 to 4 meters high.",
+    "image": "Gumamela.jpg",
+    "price": "₱3,799"
+   },
+  {
+    "name": "Lavender",
+    "description": "Lavender flowers represent purity, silence, devotion, serenity, grace, and calmness.",
+    "image": "Lavender.jpg",
+    "price": "₱5,000" 
+    },
+  {
+    "name": "Hyacinth",
+    "description": "Hyacinth is a hardy, perennial, bulbous herb in the Hyacinthaceae (hyacinth) family..",
+    "image": "Hyacinth.jpg",
+    "price": "₱999"
+    },
+  {
+    "name": "Crocus",
+    "description": "Crocus is a genus of seasonal flowering plants in the family Iridaceae comprising about 100 species of perennials growing from corms..",
+    "image": "Crocus.jpg",
+    "price": "₱1,439"
+   },
+  {
+    "name": "Peony",
+    "description": "Peony is a light, airy flower scent. Peonies have a variety of scents, from pink and sweet to lemony and peppery..",
+    "image": "Peony.jpg",
+    "price": "₱6,800" 
+   },
+  { 
+    "name": "Cherryblossoms",
+    "description":"Its flowers are nearly pure white, tinged with the palest pink, especially near the stem.." ,
+    "image": "Cherryblossoms.jpg",
+    "price": "₱5,900"
+   },
+  {
+    "name": "BlueBell",
+    "description": "The bluebell is a herb that grows from a bulb. It has linear leaves and a flowering stem that grows up to 50 cm tall and droops to one side..",
+    "image": "BlueBell.jpg",
+    "price": "₱4,200"
+    }
+  ]
+}

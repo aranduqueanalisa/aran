@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flowers Shop </title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 align = "center">ANALISA ONLINE FLOWERS</h1>
+    <div class="container" id="analisa"></div>
+
+    <script>
+        // Fetch data from the JSON file
+      fetch('product.json')
+        .then(response => response.json())
+        .then(data => {
+          const container = document.getElementById('analisa');
+                
+      data.product.forEach(flowers=> { 
+        const anna= document.createElement('analisa');
+        anna.className = 'flowers-card';
+        anna.innerHTML = `<img src="${flowers.image}" flowers="${flowers.name}">
+             <h3>${flowers.name}</h3>
+             <p>${flowers.description}</p>
+             <p class="price">${flowers.price}</p>
+                    `;
+               container.appendChild(anna);
+          });
+      })
+         .catch(error => {
+            console.error('error', error);
+         });
+    </script>
+    <footer>
+      <p>Designed By: ARANDUQUE, ANALISA</p>
+      <p>G-12 COOPER</p>
+    </footer>
+</body>
+</html>
